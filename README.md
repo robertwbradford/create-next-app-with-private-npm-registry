@@ -1,3 +1,11 @@
+**This provides a partial replication of https://github.com/vercel/next.js/issues/59081**. In order to actually replicate the issue, you will need the following:
+
+1. Clone this repo.
+1. Replace the `https://our-private-npm-registry.com` URLs in `.npmrc` and `package-lock.json` with the URL of a private npm registry you have access to that requires authentication.
+1. Run the "To Reproduce" steps from the GitHub issue.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
